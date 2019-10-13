@@ -1,0 +1,26 @@
+{
+    "name": "cristiangonzalez/module-firstmodule",
+    "description": "",
+
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": "CristianGonzalez License",
+    "authors": [
+        {
+          "name": "Hi",
+          "email": "hi@cristiangonzalez.com",
+          "homepage": "https://www.cristiangonzalez.com",
+          "role": "Leader"
+        }
+    ],
+
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "CristianGonzalez\\FirstModule\\": ""
+        }
+    }
+
+}
